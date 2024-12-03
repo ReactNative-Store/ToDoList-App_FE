@@ -5,7 +5,7 @@ import ProfileStack from './stacks/ProfileStack';
 
 
 const Tab = createBottomTabNavigator();
-
+// Tab Navigation
 const TabNavigation = () => {
   return (
     <Tab.Navigator>
