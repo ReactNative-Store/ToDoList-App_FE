@@ -3,12 +3,16 @@
 
 
 import { configureStore } from '@reduxjs/toolkit'
+import authSlice from '../features/auth/authSlice'
 
 // configureStore là một hàm tạo ra một store redux
 // configureStore nhận vào một object có key là reducer
 export const store = configureStore({
-    reducer: {} // reducer là một object chứa các reducer của toàn bộ ứng dụng 
-    // Ở đây chúng ta chưa có reducer nào nên để trống
+    reducer: { // reducer là một object chứa các reducer của toàn bộ ứng dụng 
+        auth: authSlice, // auth là key, authSlice là reducer
+    }
+    
+    
 })
 
 

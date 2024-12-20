@@ -1,7 +1,8 @@
+// todolist screen
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const TaskScreen = () => {
+const TodoListScreen = () => {
   return (
     <View>
       <Text>TaskScreen</Text>
@@ -9,4 +10,4 @@ const TaskScreen = () => {
   )
 }
 
-export default TaskScreen
+export default TodoListScreen
